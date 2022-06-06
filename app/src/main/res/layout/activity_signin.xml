@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray_0"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+
+
+    android:id="@+id/logo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="91dp"
+    android:layout_marginTop="49dp"
+    android:layout_marginEnd="88dp"
+    android:fontFamily="@font/charissil_bolditalic"
+    android:text="Medic APP"
+    android:textAlignment="center"
+    android:textColor="@color/white"
+    android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="258dp"
+        android:layout_height="46dp"
+        android:fontFamily="@font/charis_talic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="142dp"
+        android:text="your health your mate"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/charissil_bolditalic"
+        android:text="email"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="151dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/myshape"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="145dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/myshape"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="321dp"
+        android:fontFamily="@font/charissil_bolditalic"
+        android:text="password"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/logac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginBottom="206dp"
+        android:background="@drawable/myshape"
+        android:text="Sign in"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginBottom="146dp"
+        android:fontFamily="@font/charissil_bolditalic"
+        android:text="Don't have Account"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>
