@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray_0"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="78dp"
+        android:fontFamily="@font/charissil_bolditalic"
+        android:text="Medic App"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/caption"
+        android:fontFamily="@font/charissil_bolditalic"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="559dp"
+        android:text="Your health your mate"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/createaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_alignBottom="@+id/caption"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="-142dp"
+        android:background="@drawable/myshape"
+        android:fontFamily="@font/charis_regular"
+        android:text="Create Account" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_alignBottom="@+id/caption"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="386dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="-292dp"
+        android:background="@drawable/myshape"
+        android:fontFamily="@font/charis_regular"
+        android:text="sign in" />
+
+</RelativeLayout>

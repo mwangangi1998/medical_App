@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray_0"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="145dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="448dp"
+        android:background="@drawable/myshape"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="88dp"
+        android:fontFamily="@font/charissil_bolditalic"
+        android:text="Medic APP"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="258dp"
+        android:layout_height="46dp"
+        android:fontFamily="@font/charis_talic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="142dp"
+        android:text="your health your mate"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/charissil_bolditalic"
+            android:text="username"
+            />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="139dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:height="40dp"
+            android:fontFamily="@font/charissil_bolditalic"
+            android:background="@drawable/myshape"
+            android:text=""
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="151dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/myshape"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="145dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/myshape"
+        android:ems="10"
+        android:inputType="phone"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/phonetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="309dp"
+        android:fontFamily="@font/charissil_bolditalic"
+        android:text="phone number"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/passwordtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="247dp"
+        android:fontFamily="@font/charissil_bolditalic"
+        android:text="password"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginBottom="151dp"
+        android:background="@drawable/myshape"
+        android:fontFamily="@font/charissil_bolditalic"
+        android:text="Sign up"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/charissil_bolditalic"
+        android:text="email"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/already"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="102dp"
+        android:text="Already registered" />
+
+</RelativeLayout>
