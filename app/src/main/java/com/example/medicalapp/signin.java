@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -93,7 +94,15 @@ mAuth.signInWithEmailAndPassword(email,password).addOnSuccessListener(new OnSucc
         df.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
-
+                Log.d("TAG","onSuccess:"+documentSnapshot.getData());
+                if (documentSnapshot.getString("isAdmin")!=null){
+                    startActivity(new Intent(getApplicationContext(),Admin_dashboard.class));
+                    finish();
+                }
+                else {
+                    startActivity(new Intent(getApplicationContext(),Dashboard.class));
+                    finish();
+                }
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
