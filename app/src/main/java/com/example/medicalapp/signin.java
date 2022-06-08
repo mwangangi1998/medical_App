@@ -82,7 +82,7 @@ mAuth.signInWithEmailAndPassword(email,password).addOnSuccessListener(new OnSucc
 }).addOnFailureListener(new OnFailureListener() {
     @Override
     public void onFailure(@NonNull Exception e) {
-
+        Toast.makeText(signin.this, "wrong details try again!", Toast.LENGTH_SHORT).show();
     }
 });
         }
@@ -90,7 +90,7 @@ mAuth.signInWithEmailAndPassword(email,password).addOnSuccessListener(new OnSucc
     }
 
     private void checkLevel(String uid) {
-        DocumentReference df= fstore.collection("Users").document(uid);
+        DocumentReference df= fstore.collection("users").document(uid);
         df.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
@@ -99,7 +99,8 @@ mAuth.signInWithEmailAndPassword(email,password).addOnSuccessListener(new OnSucc
                     startActivity(new Intent(getApplicationContext(),Admin_dashboard.class));
                     finish();
                 }
-                else {
+                else{
+
                     startActivity(new Intent(getApplicationContext(),Dashboard.class));
                     finish();
                 }
