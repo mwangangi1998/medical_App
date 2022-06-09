@@ -1,30 +1,33 @@
 package com.example.medicalapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageView;
 
-import com.google.firebase.auth.FirebaseAuth;
+import com.google.android.material.navigation.NavigationView;
 
 public class Dashboard extends AppCompatActivity {
-    Button btn1;
+    DrawerLayout drawerLayout;
+    NavigationView navigationView;
+    ImageView imageView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-      btn1=(Button) findViewById(R.id.sign_out);
-      btn1.setOnClickListener(new View.OnClickListener() {
-          @Override
-          public void onClick(View view) {
-              FirebaseAuth.getInstance().signOut();
-              startActivity(new Intent(getApplicationContext(),MainActivity.class));
-              finish();
+        drawerLayout =(DrawerLayout) findViewById(R.id.drawerlayout_id);
+        navigationView =(NavigationView) findViewById(R.id.navigation_view);
+        imageView=(ImageView) findViewById(R.id.imageMenu);
 
-          }
-      });
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                drawerLayout.isDrawerOpen(GravityCompat.START);
+            }
+        });
     }
 }

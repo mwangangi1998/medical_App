@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<group android:checkableBehavior="single">
+<group android:checkableBehavior="single"
+    >
 
 <item
     android:id="@+id/profile"
@@ -10,6 +11,7 @@
 <item
     android:id="@+id/search"
     android:title="search"
+
     android:icon="@drawable/ic_search"
     />
     <item
@@ -22,12 +24,28 @@
         android:title="About"
         android:icon="@drawable/ic_about"
         />
+
+
+</group>
+<group android:checkableBehavior="single">
+    <item android:title="communicate"/>
+    <item
+        android:id="@+id/share"
+        android:title="hsrae"
+        android:icon="@drawable/ic_share"
+        />
+    <item
+        android:id="@+id/rate"
+        android:title="Rate us"
+        android:icon="@drawable/ic_rate"
+        />
+
+</group>
+<group>
     <item
         android:id="@+id/logout"
         android:title="logout"
         android:icon="@drawable/ic_logout"
         />
-
 </group>
-
 </menu>

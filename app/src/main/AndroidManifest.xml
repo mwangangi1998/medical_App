@@ -14,10 +14,10 @@
         android:theme="@style/Theme.MedicalApp"
         tools:targetApi="31">
         <activity
-            android:name=".Admin_dashboard"
+            android:name=".Dashboard"
             android:exported="false" />
         <activity
-            android:name=".Dashboard"
+            android:name=".Admin_dashboard"
             android:exported="false" />
         <activity
             android:name=".signup"

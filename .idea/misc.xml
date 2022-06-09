@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/menu2.xml" value="0.14" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/myshape.xml" value="0.1345" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.209375" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_dashboard.xml" value="0.20833333333333334" />
@@ -11,6 +12,7 @@
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_signup.xml" value="0.1953125" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.209375" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/header.xml" value="0.209375" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/tool.xml" value="0.209375" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/menu/main_menu.xml" value="0.1111111111111111" />
       </map>
     </option>
