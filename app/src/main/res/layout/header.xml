@@ -2,28 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:orientation="vertical"
-    android:background="@color/greenish">
+    android:background="@color/greenish"
+    android:orientation="vertical">
 
     <ImageView
-        android:layout_width="85dp"
+        android:layout_width="96dp"
         android:layout_height="85dp"
-    android:layout_marginTop="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
         android:src="@drawable/ic_undraw_doctor_kw_5_l" />
 
     <TextView
+        android:padding="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-       android:layout_marginLeft="20dp"
+        android:layout_marginLeft="20dp"
         android:fontFamily="@font/charis_bold"
         android:text="Medical App"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp" />
+
     <TextView
-        android:layout_marginLeft="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
         android:fontFamily="@font/charis_bold"
         android:text="Your health your mate"
         android:textAlignment="center"

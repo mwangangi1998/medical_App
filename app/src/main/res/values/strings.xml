@@ -2,4 +2,15 @@
     <string name="app_name">medical App</string>
     <string name="nav_open">Open navigation drawer</string>
     <string name="nav_close">close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="share">share</string>
+    <string name="notification">notification</string>
+    <string name="about">About us</string>
+    <string name="help">Help center</string>
+    <string name="search">searcht</string>
+    <string name="bug">bug</string>
+    <string name="profile">profile</string>
+    <string name="logout">logout</string>
+    <string name="rate">rate</string>
+
 </resources>

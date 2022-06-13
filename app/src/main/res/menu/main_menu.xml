@@ -8,6 +8,12 @@
     android:title="profile"
     android:icon="@drawable/ic_profile"
     />
+    <item
+        android:id="@+id/notification"
+        android:title="Notifications"
+
+        android:icon="@drawable/ic_notification"
+        />
 <item
     android:id="@+id/search"
     android:title="search"
@@ -24,14 +30,20 @@
         android:title="About"
         android:icon="@drawable/ic_about"
         />
+    <item
+        android:id="@+id/help"
+        android:title="Help center"
+        android:icon="@drawable/ic_help"
+        />
 
 
 </group>
+
 <group android:checkableBehavior="single">
     <item android:title="communicate"/>
     <item
         android:id="@+id/share"
-        android:title="hsrae"
+        android:title="share"
         android:icon="@drawable/ic_share"
         />
     <item

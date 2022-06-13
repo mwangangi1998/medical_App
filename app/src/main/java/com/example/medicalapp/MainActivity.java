@@ -27,17 +27,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
              startActivity(new Intent(getApplicationContext(),signin.class));
-                //openloginActivity();
+
             }
         });
     }
 
-//    private void openloginActivity() {
-//        Intent openlogin=new Intent(this,signin.class);
-//        startActivity(openlogin);
-//        finish();
-//
-//    }
+
 
     private void openCreateAccount() {
         Intent opencreate=new Intent(this,signup.class);
