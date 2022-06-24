@@ -15,15 +15,20 @@
         android:icon="@drawable/ic_notification"
         />
 <item
-    android:id="@+id/search"
-    android:title="search"
+    android:id="@+id/doctors"
+    android:title="Doctors"
 
-    android:icon="@drawable/ic_search"
+    android:icon="@drawable/ic_doctors"
     />
     <item
-        android:id="@+id/bug"
-        android:title="Report bug"
-        android:icon="@drawable/ic_bug"
+    android:id="@+id/book"
+    android:title="Book"
+    android:icon="@drawable/ic_calender"
+    />
+    <item
+        android:id="@+id/history"
+        android:title="History"
+        android:icon="@drawable/ic_history"
         />
     <item
         android:id="@+id/about"
@@ -40,7 +45,7 @@
 </group>
 
 <group android:checkableBehavior="single">
-    <item android:title="communicate"/>
+
     <item
         android:id="@+id/share"
         android:title="share"

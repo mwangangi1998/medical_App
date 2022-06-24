@@ -3,17 +3,117 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/teal_700"
+    android:background="@color/gray_0"
+    android:orientation="vertical"
+    android:id="@+id/dash"
     android:layout_height="match_parent"
     tools:context=".Dashboard">
-   <TextView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="Dashboard"
-       android:textAlignment="center"
-       android:gravity="center"
-       android:textSize="23sp"
-       android:layout_marginTop="230dp"
-       />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="464dp"
+        android:fontFamily="@font/charis_bold"
+        android:text="Choose your doctor"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="479dp"
+        android:src="@drawable/ic_profile" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="103dp"
+        android:fontFamily="@font/charis_bold"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="For a doctor specialist cost From ksh 3000.oo"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/getusername"
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="29dp"
+        android:fontFamily="@font/charis_bold"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/welcoming_note"
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/getusername"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="589dp"
+        android:fontFamily="@font/charis_bold"
+        android:gravity="center"
+        android:text="How can we help you today?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/ic_profile" />
+
+    <TextView
+        android:id="@+id/general"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/charis_bold"
+        android:text="General pratitioner"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/general"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:fontFamily="@font/charis_bold"
+        android:paddingLeft="25dp"
+        android:paddingTop="8dp"
+        android:paddingRight="25dp"
+        android:text="For a General practitioner costs From ksh 1500.oo"
+        android:textSize="16sp" />
+
 
 </RelativeLayout>

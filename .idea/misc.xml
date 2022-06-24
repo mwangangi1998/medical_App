@@ -4,27 +4,44 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/custom_rectangle.xml" value="0.1775" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_booking.xml" value="0.1715" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_bug.xml" value="0.1" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_history.xml" value="0.1715" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.104" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_logout.xml" value="0.1" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_notification.xml" value="0.104" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_profile.xml" value="0.1" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_rate.xml" value="0.1" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_search.xml" value="0.1715" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_share.xml" value="0.1" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/ic_undraw_doctor_kw_5_l.xml" value="0.1" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/menu2.xml" value="0.14" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/myshape.xml" value="0.1345" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/drawable/side_nav.xml" value="0.1" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_about.xml" value="0.209375" />
-        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.209375" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_adm_home.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_adm_notification.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_adm_profile.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_appointment.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_base.xml" value="0.12245961438249088" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_base_admin.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_base_drawer.xml" value="0.16" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_base_user.xml" value="0.209375" />
-        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_dashboard.xml" value="0.15" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_book.xml" value="0.1" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_doctors.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_fogotpassword.xml" value="0.209375" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_help.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_history.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_logout.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_notification.xml" value="0.209375" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_profile.xml" value="0.209375" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_rate.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_search.xml" value="0.209375" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_setting.xml" value="0.19114583333333332" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_share.xml" value="0.209375" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_signin.xml" value="0.209375" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/activity_signup.xml" value="0.1953125" />
@@ -44,6 +61,7 @@
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/fragment_share.xml" value="0.209375" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/header.xml" value="0.209375" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/layout/tool.xml" value="0.209375" />
+        <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/menu/admin_menu.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Vinny/AndroidStudioProjects/medicalApp/app/src/main/res/menu/main_menu.xml" value="0.1" />
       </map>
     </option>

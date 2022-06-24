@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">medical App</string>
+    <string name="app_name">Medical App</string>
     <string name="nav_open">Open navigation drawer</string>
     <string name="nav_close">close navigation drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -12,5 +12,8 @@
     <string name="profile">profile</string>
     <string name="logout">logout</string>
     <string name="rate">rate</string>
+    <string name="caption">Your health your mate</string>
+    <string name="reset">Reset Password</string>
+
 
 </resources>

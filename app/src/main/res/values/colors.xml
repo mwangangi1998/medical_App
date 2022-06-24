@@ -10,9 +10,10 @@
     <color name="lightblue">#4AE5DC</color>
     <color name="gray_0">#0D6480</color>
     <color name="green_0">#B2FCC4</color>
+    <color name="green_500">#2133A0</color>
     <color name="gray_1">#0D6480</color>
     <color name="blue">#e11e</color>
-    <color name="smoke">#848884</color>
+    <color name="smoke">#D08CDF</color>
     <color name="bluish">#BE73A6E6</color>
     <color name="greenish">#8CE389</color>
     <color name="transparent_white">#cccccc</color>

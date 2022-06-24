@@ -1,17 +1,16 @@
 package com.example.medicalapp;
 
+import android.content.Intent;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.FrameLayout;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.FrameLayout;
 
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -20,6 +19,9 @@ import com.google.firebase.auth.FirebaseAuth;
 public class base_userActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     DrawerLayout drawerLayout;
     FirebaseAuth mAuth;
+
+
+
 
     @Override
     public void setContentView(View view) {
@@ -39,12 +41,17 @@ public class base_userActivity extends AppCompatActivity implements NavigationVi
    toggle.syncState();
    mAuth =FirebaseAuth.getInstance();
 
+
     }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
     drawerLayout.closeDrawer(GravityCompat.START);
     switch (item.getItemId()){
+        case R.id .book:
+            startActivity(new Intent(this,book.class));
+            overridePendingTransition(0,0);
+            break;
         case R.id.profile:
             startActivity(new Intent(this,profile.class));
             overridePendingTransition(0,0);
@@ -53,16 +60,16 @@ public class base_userActivity extends AppCompatActivity implements NavigationVi
             startActivity(new Intent(this,notification.class));
             overridePendingTransition(0,0);
             break;
-        case R.id.search:
-            startActivity(new Intent(this,search.class));
+        case R.id.doctors:
+            startActivity(new Intent(this,doctors.class));
             overridePendingTransition(0,0);
             break;
         case R.id.about:
             startActivity(new Intent(this,about.class));
             overridePendingTransition(0,0);
             break;
-        case R.id.bug:
-            startActivity(new Intent(this,bug.class));
+        case R.id.history:
+            startActivity(new Intent(this,history.class));
             overridePendingTransition(0,0);
             break;
         case R.id.rate:
@@ -81,6 +88,11 @@ public class base_userActivity extends AppCompatActivity implements NavigationVi
             mAuth.signOut();
              startActivity(new Intent(this,signin.class));
              finish();
+            overridePendingTransition(0,0);
+            break;
+        default:
+            startActivity(new Intent(this,Dashboard.class));
+            finish();
             overridePendingTransition(0,0);
             break;
     }

@@ -1,23 +1,22 @@
 package com.example.medicalapp;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -26,35 +25,51 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 public class signin extends AppCompatActivity {
     EditText edit1,edit2;
-    Button button1;
-    TextView txtcreate;
+    Button button1,button2,button3;
+    ProgressBar progressBar;
+    //Button txtcreate,Txtforgot;
 private FirebaseAuth mAuth;
 private FirebaseFirestore fstore;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
+        progressBar= (ProgressBar) findViewById(R.id.progressbr);
         edit1=(EditText) findViewById(R.id.mail);
         edit2=(EditText) findViewById(R.id.passwd);
         button1=(Button) findViewById(R.id.logac);
-        txtcreate=(TextView) findViewById(R.id.sign);
+        button2=(Button) findViewById(R.id.forgot_password);
+        button3=(Button) findViewById(R.id.sign);
 button1.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
         validatedetails();
+        Handler handler=new Handler();
+
     }
 });
 
 mAuth=FirebaseAuth.getInstance();
 fstore=FirebaseFirestore.getInstance();
         //intent to signup
-        txtcreate.setOnClickListener(new View.OnClickListener() {
+        button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opencreateAc();
 
             }
         });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                forgotpass();
+            }
+        });
+    }
+
+    private void forgotpass() {
+        Intent intent =new Intent(this,fogotpassword.class);
+        startActivity(intent);
     }
 
     private void opencreateAc() {
@@ -95,11 +110,12 @@ mAuth.signInWithEmailAndPassword(email,password).addOnSuccessListener(new OnSucc
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
                 Log.d("TAG","onSuccess:"+documentSnapshot.getData());
-                if (documentSnapshot.getString("isAdmin")!=null){
+                if (documentSnapshot.getString("isAdmin" )!=null){
                     startActivity(new Intent(getApplicationContext(),Admin_dashboard.class));
                     finish();
                 }
-                else{
+
+                else if (documentSnapshot.getString("isUser")!=null){
 
                     startActivity(new Intent(getApplicationContext(),Dashboard.class));
                     finish();

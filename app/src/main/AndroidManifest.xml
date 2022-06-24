@@ -14,6 +14,33 @@
         android:theme="@style/Theme.MedicalApp"
         tools:targetApi="31">
         <activity
+            android:name=".Adm_home"
+            android:exported="false" />
+        <activity
+            android:name=".adm_profile"
+            android:exported="false" />
+        <activity
+            android:name=".appointment"
+            android:exported="false" />
+        <activity
+            android:name=".Adm_notification"
+            android:exported="false" />
+        <activity
+            android:name=".setting"
+            android:exported="false" />
+        <activity
+            android:name=".history"
+            android:exported="false" />
+        <activity
+            android:name=".book"
+            android:exported="false" />
+        <activity
+            android:name=".doctors"
+            android:exported="false" />
+        <activity
+            android:name=".fogotpassword"
+            android:exported="false" />
+        <activity
             android:name=".share"
             android:exported="false" />
         <activity
@@ -27,12 +54,6 @@
             android:exported="false" />
         <activity
             android:name=".about"
-            android:exported="false" />
-        <activity
-            android:name=".bug"
-            android:exported="false" />
-        <activity
-            android:name=".search"
             android:exported="false" />
         <activity
             android:name=".notification"

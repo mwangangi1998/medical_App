@@ -5,7 +5,7 @@
     android:useLevel="false"
     android:thickness="40dp">
 
-    <solid android:color="@color/lightblue"></solid>
+    <solid android:color="@color/smoke"></solid>
     <size
         android:height="20dp"
         android:width="40dp"
@@ -13,5 +13,5 @@
     <corners
         android:radius="50dp"
         ></corners>
-    <solid android:color="@color/lightblue"></solid>
+    <solid android:color="@color/smoke"></solid>
 </shape>

@@ -3,16 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/teal_700"
+    android:background="@color/gray_0"
     android:layout_height="match_parent"
     tools:context=".about">
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="157dp"
+        android:text="Authentication"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="about us"
-        android:textAlignment="center"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="@dimen/material_emphasis_high_type"
+        android:layout_marginBottom="@dimen/material_emphasis_high_type"
         android:gravity="center"
-        android:textSize="23sp"
-        android:layout_marginTop="230dp"
-        />
+        android:text=" To create an account with Medic App,One has to sign in using email and a password."
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
 </RelativeLayout>
